@@ -1,0 +1,1 @@
+export const API_URL = 'https://quantoo.pl/jobs/api/swiper/list.json';

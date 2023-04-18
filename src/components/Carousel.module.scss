@@ -1,0 +1,22 @@
+.slide-container {
+  position: relative;
+  height: 100%;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  width: 387px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  @media (min-width: 768px) {
+    bottom: 20px;
+  }
+}
