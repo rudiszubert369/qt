@@ -11,24 +11,16 @@
 
 .first_row {
   width: 100%;
-  padding: 20px;
+  padding-bottom: 30px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   justify-content: space-between;
-
-  @media screen and (max-width: 768px) {
-    flex-direction: column;
-    padding-bottom: 0px;
-
-    & > * {
-      width: 100%;
-    }
-  }
+  margin-bottom: 30px;
 }
 
 .box {
-  border: 2px solid black;
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,8 +43,19 @@
   &.box4 {
     flex: 1;
   }
+}
 
-  @media screen and (max-width: 768px) {
-    height: 100px;
+@media screen and (max-width: 768px) {
+  .first_row {
+    flex-direction: column;
+    padding-bottom: 0px;
+
+    & > * {
+      width: 100%;
+    }
+  }
+
+  .box {
+    flex: none!important;
   }
 }

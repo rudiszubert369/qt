@@ -27,6 +27,7 @@ const Carousel: React.FC = () => {
       pagination={{ clickable: true }}
       slidesPerView={1}
       spaceBetween={10}
+      loop={true}
       breakpoints={{
         900: {
           slidesPerView: 1,

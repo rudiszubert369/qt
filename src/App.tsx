@@ -3,14 +3,14 @@ import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter as Router } from 'react-router-dom';
 import SEO from './components/SEO'; 
 import './main.scss';
-import Layout from './components/Layout';
+import AppRoutes from './components/AppRoutes';
 
 const App = () => {
   return (
     <HelmetProvider>
       <SEO />
       <Router>
-        <Layout />
+        <AppRoutes />
       </Router>
     </HelmetProvider>
   );
