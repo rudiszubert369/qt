@@ -13,15 +13,9 @@ const SEO = () => {
         name="description"
         content="quantoo task"
       />
-
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"></link>
     </Helmet>
   );
 };
 
 export default SEO;
-
-{/* <link
-rel="icon"
-type="image/png"
-href={`${process.env.PUBLIC_URL}/favicon.png`}
-/> */}
